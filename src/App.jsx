@@ -5,11 +5,11 @@ import particlesOptions from "./utils/particles";
 import {loadFull} from 'tsparticles'
 import Home from "./containers/home";
 import Resume from "./containers/resume";
-import About from "./containers/about";
-import Skills from "./containers/portfolio";
+import Skills from "./containers/skills/Index";
 import Portfolio from "./containers/portfolio";
 import Contact from "./containers/contact";
 import Navbar from "./components/navbar/Index";
+import About from "./containers/about/Index";
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
         <Route index path="/" element={<Home />} />
         <Route index path="/about" element={<About />} />
         <Route index path="/resume" element={<Resume />} />
-        <Route index path="/skills" element={<Skills />} />
+        <Route index path="/skills" element={<Skills/>}/>
         <Route index path="/portfolio" element={<Portfolio />} />
         <Route index path="/contact" element={<Contact />} />
       </Routes>
