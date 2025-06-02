@@ -1,6 +1,6 @@
 import React from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
-import PageHeaderContent from "../../components/pageHeaderContent";
+import PageHeaderContent from "../../components/pageHeaderContent/Index";
 import { Animate } from "react-simple-animate";
 import "./style.scss";
 import { DiApple, DiAndroid } from "react-icons/di";
