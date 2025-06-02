@@ -3,11 +3,11 @@ import { Routes, Route,useLocation } from "react-router-dom";
 import Particles from 'react-tsparticles'
 import particlesOptions from "./utils/particles";
 import {loadFull} from 'tsparticles'
-import Home from "./containers/home";
-import Resume from "./containers/resume";
-import Skills from "./containers/skills/Index";
-import Portfolio from "./containers/portfolio";
-import Contact from "./containers/contact";
+import Home from "./containers/home/Index.jsx";
+import Resume from "./containers/resume/Index.jsx";
+import Skills from "./containers/skills/Index.jsx";
+import Portfolio from "./containers/portfolio/Index.jsx";
+import Contact from "./containers/contact/Index.jsx";
 import Navbar from "./components/navbar/Index";
 import About from "./containers/about/Index";
 
