@@ -52,6 +52,7 @@ const Navbar = () => {
               <Link
                 className="navbar__container__menu__item__links"
                 to={item.to}
+                onClick={()=>setToggleIcon(false)}
               >
                 {item.label}
               </Link>
